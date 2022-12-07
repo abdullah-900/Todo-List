@@ -8,11 +8,7 @@
  const path = require('path');
  const withPWA = require('next-pwa');
  const WorkerPlugin = require("worker-plugin");
- const runtimeCaching = require('next-pwa/cache');
- const withModernizr = require('next-plugin-modernizr');
- const withBundleAnalyzer = require('@next/bundle-analyzer');
- const PreloadWebpackPlugin = require('preload-webpack-plugin');
- const withTM = require('next-transpile-modules')(['@fancyapps/ui', '@googlemaps/typescript-guards']); // pass the modules you would like to see transpiled
+ 
  
  module.exports = async (phase, { defaultConfig }) => {
      const headers = async () => {
@@ -109,19 +105,6 @@
  
      var nextConfigWithPWA = null;
  
-     if(!(phase === PHASE_DEVELOPMENT_SERVER)){
-         nextConfigWithPWA = withPWA({
-             pwa: {
-                 dest: 'public',
-                 register: true,
-                 skipWaiting: true,
-                 runtimeCaching,
-                 buildExcludes: [/manifest.json$/],
-                 maximumFileSizeToCacheInBytes: 5000000
-             },
-             ...nextConfig
-         });
-     }
- 
+   
      return withTM(withModernizr(phase === PHASE_DEVELOPMENT_SERVER ? nextConfig : nextConfigWithPWA));
  };
