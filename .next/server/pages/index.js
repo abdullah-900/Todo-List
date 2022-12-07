@@ -1,82 +1,270 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./components/AddTodo.js":
-/*!*******************************!*\
-  !*** ./components/AddTodo.js ***!
-  \*******************************/
+/***/ 702:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ AddTodo)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction AddTodo({ onAdd  }) {\n    const [task, setTask] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"inputcomp\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                placeholder: \"Enter a Todo...\",\n                className: \"adding\",\n                value: task,\n                onChange: (e)=>setTask(e.target.value)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\AddTodo.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                className: \"addbutton\",\n                onClick: ()=>{\n                    onAdd(task);\n                    setTask(\"\");\n                },\n                children: \"Add\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\AddTodo.js\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\AddTodo.js\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0FkZFRvZG8uanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUFpQztBQUNsQixTQUFTQyxRQUFRLEVBQUVDLE1BQUssRUFBRSxFQUFFO0lBQ3pDLE1BQU0sQ0FBQ0MsTUFBTUMsUUFBUSxHQUFHSiwrQ0FBUUEsQ0FBQztJQUNqQyxxQkFDRSw4REFBQ0s7UUFBSUMsV0FBVTs7MEJBRWIsOERBQUNDO2dCQUFNQyxhQUFZO2dCQUFrQkYsV0FBVTtnQkFBVUcsT0FBT047Z0JBQU1PLFVBQVUsQ0FBQ0MsSUFBTVAsUUFBUU8sRUFBRUMsTUFBTSxDQUFDSCxLQUFLOzs7Ozs7MEJBQzdHLDhEQUFDSTtnQkFBT1AsV0FBVTtnQkFBWVEsU0FBUyxJQUFLO29CQUFDWixNQUFNQztvQkFDbkRDLFFBQVE7Z0JBQUc7MEJBQUk7Ozs7Ozs7Ozs7OztBQUdyQixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vY29tcG9uZW50cy9BZGRUb2RvLmpzPzI3ZjQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQWRkVG9kbyh7IG9uQWRkIH0pIHtcclxuICBjb25zdCBbdGFzaywgc2V0VGFza10gPSB1c2VTdGF0ZShcIlwiKTtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCJpbnB1dGNvbXBcIj5cclxuXHJcbiAgICAgIDxpbnB1dCBwbGFjZWhvbGRlcj1cIkVudGVyIGEgVG9kby4uLlwiIGNsYXNzTmFtZT1cImFkZGluZ1wiICB2YWx1ZT17dGFza30gb25DaGFuZ2U9eyhlKSA9PiBzZXRUYXNrKGUudGFyZ2V0LnZhbHVlKX0+PC9pbnB1dD5cclxuICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJhZGRidXR0b25cIiBvbkNsaWNrPXsoKSA9PntvbkFkZCh0YXNrKTtcclxuICAgICAgc2V0VGFzaygnJyl9IH0+QWRkPC9idXR0b24+XHJcbiAgICA8L2Rpdj5cclxuICApO1xyXG59XHJcbiJdLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsIkFkZFRvZG8iLCJvbkFkZCIsInRhc2siLCJzZXRUYXNrIiwiZGl2IiwiY2xhc3NOYW1lIiwiaW5wdXQiLCJwbGFjZWhvbGRlciIsInZhbHVlIiwib25DaGFuZ2UiLCJlIiwidGFyZ2V0IiwiYnV0dG9uIiwib25DbGljayJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/AddTodo.js\n");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ AddTodo)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function AddTodo({ onAdd  }) {
+    const [task, setTask] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "inputcomp",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                placeholder: "Enter a Todo...",
+                className: "adding",
+                value: task,
+                onChange: (e)=>setTask(e.target.value)
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                className: "addbutton",
+                onClick: ()=>{
+                    onAdd(task);
+                    setTask("");
+                },
+                children: "Add"
+            })
+        ]
+    });
+}
+
 
 /***/ }),
 
-/***/ "./components/TaskList.js":
-/*!********************************!*\
-  !*** ./components/TaskList.js ***!
-  \********************************/
+/***/ 979:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TaskList)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"@fortawesome/react-fontawesome\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-regular-svg-icons */ \"@fortawesome/free-regular-svg-icons\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__]);\n_fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction TaskList({ todos , ondelete , onChange  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n            children: todos.map((todo)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                    className: \"task\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Task, {\n                        onChange: onChange,\n                        ondelete: ondelete,\n                        todo: todo\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                        lineNumber: 12,\n                        columnNumber: 25\n                    }, this)\n                }, todo.id, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 11,\n                    columnNumber: 21\n                }, this))\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n            lineNumber: 9,\n            columnNumber: 13\n        }, this)\n    }, void 0, false);\n}\nfunction Task({ todo , ondelete , onChange  }) {\n    const [isEdit, setIsEdit] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    const [finished, setIsFinished] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    if (isEdit) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                    value: todo.task,\n                    onChange: (e)=>{\n                        onChange({\n                            ...todo,\n                            task: e.target.value\n                        });\n                    }\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 28,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    style: {\n                        all: \"unset\",\n                        cursor: \"pointer\"\n                    },\n                    onClick: ()=>{\n                        setIsEdit(!isEdit);\n                    },\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {\n                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faFloppyDisk\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                        lineNumber: 34,\n                        columnNumber: 105\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 34,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    style: {\n                        all: \"unset\",\n                        cursor: \"pointer\"\n                    },\n                    onClick: ()=>ondelete(todo.id),\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {\n                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faXmarkCircle\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                        lineNumber: 35,\n                        columnNumber: 99\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 35,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true);\n    } else {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n            children: [\n                finished ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"s\", {\n                    children: todo.task\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 45,\n                    columnNumber: 29\n                }, this) : todo.task,\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    style: {\n                        all: \"unset\",\n                        cursor: \"pointer\"\n                    },\n                    onClick: ()=>ondelete(todo.id),\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {\n                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faXmarkCircle\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                        lineNumber: 46,\n                        columnNumber: 98\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 46,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                    style: {\n                        all: \"unset\",\n                        cursor: \"pointer\"\n                    },\n                    onClick: ()=>{\n                        setIsEdit(!isEdit);\n                    },\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {\n                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faPenToSquare\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                        lineNumber: 47,\n                        columnNumber: 104\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 47,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    class: \"checkbox-wrapper-39\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                className: \"checkbox-wrapper-39\",\n                                type: \"checkbox\",\n                                onClick: ()=>setIsFinished(!finished)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                                lineNumber: 52,\n                                columnNumber: 25\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"checkbox\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                                lineNumber: 53,\n                                columnNumber: 25\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                        lineNumber: 51,\n                        columnNumber: 21\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\components\\\\TaskList.js\",\n                    lineNumber: 50,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true);\n    }\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1Rhc2tMaXN0LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFBaUM7QUFDK0I7QUFDOEI7QUFDL0UsU0FBU0ssU0FBUyxFQUFFQyxNQUFLLEVBQUVDLFNBQVEsRUFBRUMsU0FBUSxFQUFDLEVBQUU7SUFHM0QscUJBQ0k7a0JBQ0ksNEVBQUNDO3NCQUNJSCxNQUFNSSxHQUFHLENBQUMsQ0FBQ0MscUJBQ1IsOERBQUNDO29CQUFHQyxXQUFVOzhCQUNWLDRFQUFDQzt3QkFBS04sVUFBVUE7d0JBQVVELFVBQVVBO3dCQUFVSSxNQUFNQTs7Ozs7O21CQUQ5QkEsS0FBS0ksRUFBRTs7Ozs7Ozs7Ozs7QUFRckQsQ0FBQztBQUVELFNBQVNELEtBQUssRUFBRUgsS0FBSSxFQUFFSixTQUFRLEVBQUVDLFNBQVEsRUFBQyxFQUFFO0lBQ3ZDLE1BQU0sQ0FBQ1EsUUFBUUMsVUFBVSxHQUFHakIsK0NBQVFBLENBQUMsS0FBSztJQUMxQyxNQUFNLENBQUNrQixVQUFVQyxjQUFjLEdBQUduQiwrQ0FBUUEsQ0FBQyxLQUFLO0lBQ2hELElBQUlnQixRQUFRO1FBQ1IscUJBQ0k7OzhCQUVJLDhEQUFDSTtvQkFBTUMsT0FBT1YsS0FBS1csSUFBSTtvQkFBRWQsVUFBVSxDQUFDZSxJQUFNO3dCQUN0Q2YsU0FBUzs0QkFDTCxHQUFHRyxJQUFJOzRCQUNQVyxNQUFNQyxFQUFFQyxNQUFNLENBQUNILEtBQUs7d0JBQ3hCO29CQUNKOzs7Ozs7OEJBQ0EsOERBQUNJO29CQUFPQyxPQUFPO3dCQUFDQyxLQUFJO3dCQUFRQyxRQUFPO29CQUFTO29CQUFJQyxTQUFTLElBQU07d0JBQUVaLFVBQVUsQ0FBQ0Q7b0JBQVM7OEJBQUcsNEVBQUNmLDJFQUFlQTt3QkFBQzZCLE1BQU01Qiw2RUFBWUE7Ozs7Ozs7Ozs7OzhCQUMzSCw4REFBQ3VCO29CQUFPQyxPQUFPO3dCQUFDQyxLQUFJO3dCQUFRQyxRQUFPO29CQUFTO29CQUFJQyxTQUFTLElBQU10QixTQUFTSSxLQUFLSSxFQUFFOzhCQUFHLDRFQUFDZCwyRUFBZUE7d0JBQUM2QixNQUFNM0IsOEVBQWFBOzs7Ozs7Ozs7Ozs7O0lBS2xJLE9BQU87UUFFSCxxQkFDSTs7Z0JBRUtlLHlCQUFXLDhEQUFDYTs4QkFBR3BCLEtBQUtXLElBQUk7Ozs7OzJCQUFRWCxLQUFLVyxJQUFJOzhCQUMxQyw4REFBQ0c7b0JBQU9DLE9BQU87d0JBQUNDLEtBQUk7d0JBQVFDLFFBQU87b0JBQVM7b0JBQUdDLFNBQVMsSUFBTXRCLFNBQVNJLEtBQUtJLEVBQUU7OEJBQUcsNEVBQUNkLDJFQUFlQTt3QkFBQzZCLE1BQU0zQiw4RUFBYUE7Ozs7Ozs7Ozs7OzhCQUNySCw4REFBQ3NCO29CQUFPQyxPQUFPO3dCQUFDQyxLQUFJO3dCQUFRQyxRQUFPO29CQUFTO29CQUFHQyxTQUFTLElBQU07d0JBQUVaLFVBQVUsQ0FBQ0Q7b0JBQVM7OEJBQUcsNEVBQUNmLDJFQUFlQTt3QkFBQzZCLE1BQU0xQiw4RUFBYUE7Ozs7Ozs7Ozs7OzhCQUczSCw4REFBQzRCO29CQUFJQyxPQUFNOzhCQUNQLDRFQUFDQzs7MENBQ0csOERBQUNkO2dDQUFNUCxXQUFVO2dDQUFzQnNCLE1BQUs7Z0NBQVdOLFNBQVMsSUFBTVYsY0FBYyxDQUFDRDs7Ozs7OzBDQUNyRiw4REFBQ2tCO2dDQUFLdkIsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWFwQyxDQUFDO0FBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb21wb25lbnRzL1Rhc2tMaXN0LmpzP2Y3MzQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IHsgRm9udEF3ZXNvbWVJY29uIH0gZnJvbSAnQGZvcnRhd2Vzb21lL3JlYWN0LWZvbnRhd2Vzb21lJ1xyXG5pbXBvcnQgeyBmYUZsb3BweURpc2ssZmFYbWFya0NpcmNsZSxmYVBlblRvU3F1YXJlIH0gZnJvbSAnQGZvcnRhd2Vzb21lL2ZyZWUtcmVndWxhci1zdmctaWNvbnMnXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFRhc2tMaXN0KHsgdG9kb3MsIG9uZGVsZXRlLCBvbkNoYW5nZX0pIHtcclxuXHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgICAgICA8dWwgPlxyXG4gICAgICAgICAgICAgICAge3RvZG9zLm1hcCgodG9kbykgPT4gKFxyXG4gICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJ0YXNrXCIga2V5PXt0b2RvLmlkfT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPFRhc2sgb25DaGFuZ2U9e29uQ2hhbmdlfSBvbmRlbGV0ZT17b25kZWxldGV9IHRvZG89e3RvZG99IC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgPC9saT5cclxuICAgICAgICAgICAgICAgICkpfVxyXG4gICAgICAgICAgICA8L3VsPlxyXG4gICAgICAgIDwvPlxyXG4gICAgKVxyXG59XHJcblxyXG5mdW5jdGlvbiBUYXNrKHsgdG9kbywgb25kZWxldGUsIG9uQ2hhbmdlfSkge1xyXG4gICAgY29uc3QgW2lzRWRpdCwgc2V0SXNFZGl0XSA9IHVzZVN0YXRlKGZhbHNlKVxyXG4gICAgY29uc3QgW2ZpbmlzaGVkLCBzZXRJc0ZpbmlzaGVkXSA9IHVzZVN0YXRlKGZhbHNlKVxyXG4gICAgaWYgKGlzRWRpdCkge1xyXG4gICAgICAgIHJldHVybiAoXHJcbiAgICAgICAgICAgIDw+XHJcblxyXG4gICAgICAgICAgICAgICAgPGlucHV0IHZhbHVlPXt0b2RvLnRhc2t9IG9uQ2hhbmdlPXsoZSkgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlKHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgLi4udG9kbyxcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGFzazogZS50YXJnZXQudmFsdWVcclxuICAgICAgICAgICAgICAgICAgICB9KVxyXG4gICAgICAgICAgICAgICAgfX0+PC9pbnB1dD5cclxuICAgICAgICAgICAgICAgIDxidXR0b24gc3R5bGU9e3thbGw6J3Vuc2V0JyxjdXJzb3I6XCJwb2ludGVyXCJ9fSAgb25DbGljaz17KCkgPT4geyBzZXRJc0VkaXQoIWlzRWRpdCk7IH19PjxGb250QXdlc29tZUljb24gaWNvbj17ZmFGbG9wcHlEaXNrfSAvPjwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgPGJ1dHRvbiBzdHlsZT17e2FsbDondW5zZXQnLGN1cnNvcjpcInBvaW50ZXJcIn19ICBvbkNsaWNrPXsoKSA9PiBvbmRlbGV0ZSh0b2RvLmlkKX0+PEZvbnRBd2Vzb21lSWNvbiBpY29uPXtmYVhtYXJrQ2lyY2xlfSAvPjwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8Lz5cclxuICAgICAgICApXHJcbiAgICB9IGVsc2Uge1xyXG5cclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICA8PlxyXG5cclxuICAgICAgICAgICAgICAgIHtmaW5pc2hlZCA/IDxzPnt0b2RvLnRhc2t9PC9zPiA6IHRvZG8udGFza31cclxuICAgICAgICAgICAgICAgIDxidXR0b24gc3R5bGU9e3thbGw6J3Vuc2V0JyxjdXJzb3I6XCJwb2ludGVyXCJ9fSBvbkNsaWNrPXsoKSA9PiBvbmRlbGV0ZSh0b2RvLmlkKX0+PEZvbnRBd2Vzb21lSWNvbiBpY29uPXtmYVhtYXJrQ2lyY2xlfSAvPjwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgPGJ1dHRvbiBzdHlsZT17e2FsbDondW5zZXQnLGN1cnNvcjpcInBvaW50ZXJcIn19IG9uQ2xpY2s9eygpID0+IHsgc2V0SXNFZGl0KCFpc0VkaXQpOyB9fT48Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhUGVuVG9TcXVhcmV9IC8+PC9idXR0b24+XHJcblxyXG5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9XCJjaGVja2JveC13cmFwcGVyLTM5XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGxhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgY2xhc3NOYW1lPVwiY2hlY2tib3gtd3JhcHBlci0zOVwiIHR5cGU9J2NoZWNrYm94JyBvbkNsaWNrPXsoKSA9PiBzZXRJc0ZpbmlzaGVkKCFmaW5pc2hlZCl9PjwvaW5wdXQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImNoZWNrYm94XCI+PC9zcGFuPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvbGFiZWw+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuICAgICAgICAgICAgPC8+XHJcbiAgICAgICAgKVxyXG5cclxuXHJcbiAgICB9XHJcbn0iXSwibmFtZXMiOlsidXNlU3RhdGUiLCJGb250QXdlc29tZUljb24iLCJmYUZsb3BweURpc2siLCJmYVhtYXJrQ2lyY2xlIiwiZmFQZW5Ub1NxdWFyZSIsIlRhc2tMaXN0IiwidG9kb3MiLCJvbmRlbGV0ZSIsIm9uQ2hhbmdlIiwidWwiLCJtYXAiLCJ0b2RvIiwibGkiLCJjbGFzc05hbWUiLCJUYXNrIiwiaWQiLCJpc0VkaXQiLCJzZXRJc0VkaXQiLCJmaW5pc2hlZCIsInNldElzRmluaXNoZWQiLCJpbnB1dCIsInZhbHVlIiwidGFzayIsImUiLCJ0YXJnZXQiLCJidXR0b24iLCJzdHlsZSIsImFsbCIsImN1cnNvciIsIm9uQ2xpY2siLCJpY29uIiwicyIsImRpdiIsImNsYXNzIiwibGFiZWwiLCJ0eXBlIiwic3BhbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/TaskList.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ TaskList)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(765);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__]);
+_fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function TaskList({ todos , ondelete , onChange  }) {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
+            children: todos.map((todo)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                    className: "task",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Task, {
+                        onChange: onChange,
+                        ondelete: ondelete,
+                        todo: todo
+                    })
+                }, todo.id))
+        })
+    });
+}
+function Task({ todo , ondelete , onChange  }) {
+    const [isEdit, setIsEdit] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const [finished, setIsFinished] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    if (isEdit) {
+        return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                    value: todo.task,
+                    onChange: (e)=>{
+                        onChange({
+                            ...todo,
+                            task: e.target.value
+                        });
+                    }
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    style: {
+                        all: "unset",
+                        cursor: "pointer"
+                    },
+                    onClick: ()=>{
+                        setIsEdit(!isEdit);
+                    },
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
+                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faFloppyDisk
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    style: {
+                        all: "unset",
+                        cursor: "pointer"
+                    },
+                    onClick: ()=>ondelete(todo.id),
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
+                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faXmarkCircle
+                    })
+                })
+            ]
+        });
+    } else {
+        return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+            children: [
+                finished ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("s", {
+                    children: todo.task
+                }) : todo.task,
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    style: {
+                        all: "unset",
+                        cursor: "pointer"
+                    },
+                    onClick: ()=>ondelete(todo.id),
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
+                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faXmarkCircle
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    style: {
+                        all: "unset",
+                        cursor: "pointer"
+                    },
+                    onClick: ()=>{
+                        setIsEdit(!isEdit);
+                    },
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
+                        icon: _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faPenToSquare
+                    })
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    class: "checkbox-wrapper-39",
+                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("label", {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                className: "checkbox-wrapper-39",
+                                type: "checkbox",
+                                onClick: ()=>setIsFinished(!finished)
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                className: "checkbox"
+                            })
+                        ]
+                    })
+                })
+            ]
+        });
+    }
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ 369:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ taskApp)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/TaskList.js */ \"./components/TaskList.js\");\n/* harmony import */ var _components_AddTodo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/AddTodo */ \"./components/AddTodo.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__]);\n_components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\nfunction taskApp() {\n    const intialState = JSON.parse(localStorage.getItem(\"todos\")) || [];\n    const [todos, setTodos] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(intialState);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        localStorage.setItem(\"todos\", JSON.stringify(todos));\n    }, [\n        todos\n    ]);\n    function handleAdd(task) {\n        setTodos([\n            ...todos,\n            {\n                id: Math.random(),\n                task: task,\n                done: false\n            }\n        ]);\n    }\n    function handledelete(id) {\n        setTodos(todos.filter((todo)=>todo.id !== id));\n    }\n    function handleChange(nextID) {\n        setTodos(todos.map((t)=>{\n            if (t.id === nextID.id) {\n                return nextID;\n            } else {\n                return t;\n            }\n        }));\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"parent\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"child\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_AddTodo__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                    onAdd: handleAdd\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\pages\\\\index.js\",\n                    lineNumber: 45,\n                    columnNumber: 7\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                    onChange: handleChange,\n                    onAdd: handleAdd,\n                    ondelete: handledelete,\n                    todos: todos\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\pages\\\\index.js\",\n                    lineNumber: 47,\n                    columnNumber: 7\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\pages\\\\index.js\",\n            lineNumber: 43,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\abdal\\\\Documents\\\\GitHub\\\\Todo-List\\\\pages\\\\index.js\",\n        lineNumber: 42,\n        columnNumber: 5\n    }, this);\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUE7QUFBMkM7QUFDSztBQUNKO0FBRTdCLFNBQVNJLFVBQVU7SUFFaEMsTUFBTUMsY0FBWUMsS0FBS0MsS0FBSyxDQUFDQyxhQUFhQyxPQUFPLENBQUMsYUFBYSxFQUFFO0lBQ2pFLE1BQU0sQ0FBQ0MsT0FBT0MsU0FBUyxHQUFHWCwrQ0FBUUEsQ0FBQ0s7SUFDckNKLGdEQUFTQSxDQUFFLElBQUk7UUFDYk8sYUFBYUksT0FBTyxDQUFDLFNBQVFOLEtBQUtPLFNBQVMsQ0FBQ0g7SUFDOUMsR0FBRTtRQUFDQTtLQUFNO0lBQ1AsU0FBU0ksVUFBVUMsSUFBSSxFQUFFO1FBQ3ZCSixTQUNFO2VBQ0tEO1lBQ0g7Z0JBQ0VNLElBQUlDLEtBQUtDLE1BQU07Z0JBQ2ZILE1BQU1BO2dCQUNOSSxNQUFNLEtBQUs7WUFDYjtTQUNEO0lBR0w7SUFDQSxTQUFTQyxhQUFhSixFQUFFLEVBQUU7UUFDeEJMLFNBQ0VELE1BQU1XLE1BQU0sQ0FBQyxDQUFDQyxPQUFTQSxLQUFLTixFQUFFLEtBQUtBO0lBRXZDO0lBRUYsU0FBU08sYUFBYUMsTUFBTSxFQUFFO1FBQzVCYixTQUFTRCxNQUFNZSxHQUFHLENBQUNDLENBQUFBLElBQUc7WUFDcEIsSUFBR0EsRUFBRVYsRUFBRSxLQUFHUSxPQUFPUixFQUFFLEVBQUU7Z0JBQ25CLE9BQU9RO1lBQ1QsT0FBTztnQkFDTCxPQUFPRTtZQUNULENBQUM7UUFDSDtJQUNGO0lBQ0UscUJBRUUsOERBQUNDO1FBQUlDLFdBQVU7a0JBQ2IsNEVBQUNEO1lBQUlDLFdBQVU7OzhCQUVmLDhEQUFDekIsMkRBQU9BO29CQUFDMEIsT0FBT2Y7Ozs7Ozs4QkFFaEIsOERBQUNaLCtEQUFRQTtvQkFBRTRCLFVBQVVQO29CQUFjTSxPQUFPZjtvQkFBWWlCLFVBQVVYO29CQUFjVixPQUFPQTs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLM0YsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3BhZ2VzL2luZGV4LmpzP2JlZTciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUsdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgVGFza0xpc3QgZnJvbSAnLi4vY29tcG9uZW50cy9UYXNrTGlzdC5qcydcclxuaW1wb3J0IEFkZFRvZG8gZnJvbSAnLi4vY29tcG9uZW50cy9BZGRUb2RvJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHRhc2tBcHAoKSB7XHJcbiAgXHJcbiAgY29uc3QgaW50aWFsU3RhdGU9SlNPTi5wYXJzZShsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgndG9kb3MnKSkgfHwgW107XHJcbiAgY29uc3QgW3RvZG9zLCBzZXRUb2Rvc10gPSB1c2VTdGF0ZShpbnRpYWxTdGF0ZSlcclxudXNlRWZmZWN0ICgoKT0+e1xyXG4gIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCd0b2RvcycsSlNPTi5zdHJpbmdpZnkodG9kb3MpKTtcclxufSxbdG9kb3NdKSAgXHJcbiAgZnVuY3Rpb24gaGFuZGxlQWRkKHRhc2spIHtcclxuICAgIHNldFRvZG9zKFxyXG4gICAgICBbXHJcbiAgICAgICAgLi4udG9kb3MsXHJcbiAgICAgICAge1xyXG4gICAgICAgICAgaWQ6IE1hdGgucmFuZG9tKCksXHJcbiAgICAgICAgICB0YXNrOiB0YXNrLFxyXG4gICAgICAgICAgZG9uZTogZmFsc2UsXHJcbiAgICAgICAgfVxyXG4gICAgICBdXHJcbiAgICApXHJcbiAgICBcclxuICB9XHJcbiAgZnVuY3Rpb24gaGFuZGxlZGVsZXRlKGlkKSB7XHJcbiAgICBzZXRUb2RvcyhcclxuICAgICAgdG9kb3MuZmlsdGVyKCh0b2RvKSA9PiB0b2RvLmlkICE9PSBpZClcclxuICAgIClcclxuICB9XHJcbiBcclxuZnVuY3Rpb24gaGFuZGxlQ2hhbmdlKG5leHRJRCkge1xyXG4gIHNldFRvZG9zKHRvZG9zLm1hcCh0PT57XHJcbiAgICBpZih0LmlkPT09bmV4dElELmlkKSB7XHJcbiAgICAgIHJldHVybiBuZXh0SURcclxuICAgIH0gZWxzZSB7XHJcbiAgICAgIHJldHVybiB0XHJcbiAgICB9XHJcbiAgfSkpXHJcbn1cclxuICByZXR1cm4gKFxyXG4gICAgXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT0ncGFyZW50Jz5cclxuICAgICAgPGRpdiBjbGFzc05hbWU9J2NoaWxkJz5cclxuICAgICAgXHJcbiAgICAgIDxBZGRUb2RvIG9uQWRkPXtoYW5kbGVBZGR9IC8+XHJcbiAgICAgIFxyXG4gICAgICA8VGFza0xpc3QgIG9uQ2hhbmdlPXtoYW5kbGVDaGFuZ2V9IG9uQWRkPXtoYW5kbGVBZGR9ICBvbmRlbGV0ZT17aGFuZGxlZGVsZXRlfSB0b2Rvcz17dG9kb3N9IC8+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgIFxyXG4gIClcclxufSJdLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsInVzZUVmZmVjdCIsIlRhc2tMaXN0IiwiQWRkVG9kbyIsInRhc2tBcHAiLCJpbnRpYWxTdGF0ZSIsIkpTT04iLCJwYXJzZSIsImxvY2FsU3RvcmFnZSIsImdldEl0ZW0iLCJ0b2RvcyIsInNldFRvZG9zIiwic2V0SXRlbSIsInN0cmluZ2lmeSIsImhhbmRsZUFkZCIsInRhc2siLCJpZCIsIk1hdGgiLCJyYW5kb20iLCJkb25lIiwiaGFuZGxlZGVsZXRlIiwiZmlsdGVyIiwidG9kbyIsImhhbmRsZUNoYW5nZSIsIm5leHRJRCIsIm1hcCIsInQiLCJkaXYiLCJjbGFzc05hbWUiLCJvbkFkZCIsIm9uQ2hhbmdlIiwib25kZWxldGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ taskApp)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(979);
+/* harmony import */ var _components_AddTodo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(702);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__]);
+_components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+function taskApp() {
+    const intialState = JSON.parse(localStorage.getItem("todos")) || [];
+    const [todos, setTodos] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(intialState);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        localStorage.setItem("todos", JSON.stringify(todos));
+    }, [
+        todos
+    ]);
+    function handleAdd(task) {
+        setTodos([
+            ...todos,
+            {
+                id: Math.random(),
+                task: task,
+                done: false
+            }
+        ]);
+    }
+    function handledelete(id) {
+        setTodos(todos.filter((todo)=>todo.id !== id));
+    }
+    function handleChange(nextID) {
+        setTodos(todos.map((t)=>{
+            if (t.id === nextID.id) {
+                return nextID;
+            } else {
+                return t;
+            }
+        }));
+    }
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: "parent",
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            className: "child",
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_AddTodo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                    onAdd: handleAdd
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_TaskList_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                    onChange: handleChange,
+                    onAdd: handleAdd,
+                    ondelete: handledelete,
+                    todos: todos
+                })
+            ]
+        })
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "@fortawesome/react-fontawesome":
-/*!*************************************************!*\
-  !*** external "@fortawesome/react-fontawesome" ***!
-  \*************************************************/
+/***/ 197:
 /***/ ((module) => {
 
 module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "@fortawesome/free-regular-svg-icons":
-/*!******************************************************!*\
-  !*** external "@fortawesome/free-regular-svg-icons" ***!
-  \******************************************************/
+/***/ 765:
 /***/ ((module) => {
 
 module.exports = import("@fortawesome/free-regular-svg-icons");;
@@ -90,7 +278,7 @@ module.exports = import("@fortawesome/free-regular-svg-icons");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+var __webpack_exports__ = (__webpack_exec__(369));
 module.exports = __webpack_exports__;
 
 })();
