@@ -5,7 +5,7 @@ import AddTodo from '../components/AddTodo';
 export default function taskApp() {
   
   
-  const [todos, setTodos] = useState([hh])
+  const [todos, setTodos] = useState([])
  
   function handleAdd(task) {
     setTodos(
