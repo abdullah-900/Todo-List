@@ -4,11 +4,9 @@ import AddTodo from '../components/AddTodo';
 
 export default function taskApp() {
   
-  const intialState=JSON.parse(localStorage.getItem('todos')) || [];
-  const [todos, setTodos] = useState(intialState)
-useEffect (()=>{
-  localStorage.setItem('todos',JSON.stringify(todos));
-},[todos])  
+  
+  const [todos, setTodos] = useState([])
+ 
   function handleAdd(task) {
     setTodos(
       [
