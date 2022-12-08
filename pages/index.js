@@ -3,13 +3,20 @@ import TaskList from '../components/TaskList.js'
 import AddTodo from '../components/AddTodo';
 
 export default function taskApp() {
-  
- 
+
+
   const [todos, setTodos] = useState([])
 
- 
 
+useEffect (()=>{
+const data = window.localStorage.getItem('todos');
+ if (data!==null) setTodos(JSON.parse(data))
 
+},[])
+
+  useEffect(() => {
+    window.localStorage.setItem('todos', JSON.stringify(todos));
+  }, [todos]);
 
   function handleAdd(task) {
     setTodos(
