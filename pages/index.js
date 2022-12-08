@@ -10,7 +10,7 @@ export default function taskApp() {
   useEffect(() => {
     document.title = 'TodoList';
   }, []);
-}
+
 
 
 
