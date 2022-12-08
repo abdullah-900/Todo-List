@@ -7,7 +7,13 @@ export default function taskApp() {
  
   const [todos, setTodos] = useState([])
 
- 
+  useEffect(() => {
+    document.title = 'TodoList';
+  }, []);
+}
+
+
+
   function handleAdd(task) {
     setTodos(
       [
@@ -40,7 +46,7 @@ function handleChange(nextID) {
     
     <div className='parent'>
       <div className='child'>
-      <title>TodoList</title>
+      
       <AddTodo onAdd={handleAdd} />
       
       <TaskList  onChange={handleChange} onAdd={handleAdd}  ondelete={handledelete} todos={todos} />
