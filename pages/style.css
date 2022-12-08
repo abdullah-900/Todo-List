@@ -126,3 +126,10 @@ body{
   }
 
  
+  @media (max-width: 576px) { 
+    .child{
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 250px;
+    }
+   }
