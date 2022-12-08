@@ -46,6 +46,8 @@ function handleChange(nextID) {
     }
   }))
 }
+
+
   return (
     
     <div className='parent'>
@@ -53,7 +55,7 @@ function handleChange(nextID) {
       
       <AddTodo onAdd={handleAdd} />
       <title>TodoList</title>
-      <TaskList  onChange={handleChange} onAdd={handleAdd}  ondelete={handledelete} todos={todos} />
+      <TaskList   onChange={handleChange} onAdd={handleAdd}  ondelete={handledelete} todos={todos} />
       </div>
       </div>
     
