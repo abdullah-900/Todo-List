@@ -7,10 +7,7 @@ export default function taskApp() {
  
   const [todos, setTodos] = useState([])
 
-  useEffect(() => {
-    document.title = 'TodoList';
-  }, []);
-
+ 
 
 
 
@@ -48,7 +45,7 @@ function handleChange(nextID) {
       <div className='child'>
       
       <AddTodo onAdd={handleAdd} />
-      
+      <title>TodoList</title>
       <TaskList  onChange={handleChange} onAdd={handleAdd}  ondelete={handledelete} todos={todos} />
       </div>
       </div>
