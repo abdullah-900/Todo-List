@@ -128,8 +128,8 @@ body{
  
   @media (max-width: 576px) { 
     .child{
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
       padding-bottom: 250px;
     }
    }
