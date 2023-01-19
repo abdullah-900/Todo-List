@@ -54,11 +54,11 @@ function Task({ todo, ondelete, onChange}) {
             <>
 
                 {todo.done ? <s>{todo.task}</s> : todo.task}
-                <button style={{all:'unset',cursor:"pointer"}} onClick={() => ondelete(todo.id)}><FontAwesomeIcon icon={faXmarkCircle} /></button>
-                <button style={{all:'unset',cursor:"pointer"}} onClick={() => { setIsEdit(!isEdit); }}><FontAwesomeIcon icon={faPenToSquare} /></button>
+                <FontAwesomeIcon onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
+                <FontAwesomeIcon onClick={() => { setIsEdit(!isEdit); }} icon={faPenToSquare} />
 
 
-                <div class="checkbox-wrapper-39">
+                <div className="checkbox-wrapper-39">
                     <label>
                         <input className="checkbox-wrapper-39"  checked={todo.done}  type='checkbox'  onChange={(e) => {
                     onChange(todo.done?{

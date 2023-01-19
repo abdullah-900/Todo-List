@@ -10,36 +10,39 @@
 }
 
 .child {
-    
-    padding-bottom: 300px;
-    padding-top: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    padding: 20px;
     background-color: #FFFFFF;
-    border-radius: 8px;
-    border: 1px solid black;
+    border-radius: 10px;
+    
     display: inline-block;
     
     
 }
 ul,li {
+  
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 .task{
+  
     display: flex;
     justify-content: flex-end;
     gap: 50px;
-  border: solid 1px black;
     margin-bottom: 15px;
     margin-top: 15px;
     
 }
 input{
+  
+  
     margin-right: 10px;
-    
-   
+   border: 1px solid grey;
 }
 body{
    background-color: #66BFBF;
@@ -50,7 +53,7 @@ body{
     padding: 7px 20px;
     border-radius: 6px;
     padding-right: 50px;
-   
+    
    
 }
 
@@ -76,6 +79,8 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  
+  
 }
 
 .addbutton:hover {
@@ -85,10 +90,12 @@ body{
   transform: scale(1.05) rotate(-1deg);
 }
 .inputcomp{
+    border: 1px solid white;
     display: flex;
     margin-bottom: 30px;
     margin-top: 30px;
     gap: 5px;
+    
 }
 
 
@@ -133,3 +140,8 @@ body{
     transition: all 0.375s;
   }
 
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
