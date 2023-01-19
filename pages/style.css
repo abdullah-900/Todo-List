@@ -1,5 +1,4 @@
 
-
 .parent{
   
     display: flex;
@@ -10,7 +9,7 @@
 }
 
 .child {
-
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,8 +19,14 @@
     border-radius: 10px;
     
     display: inline-block;
-    
-    
+      
+}
+@media screen and (min-width: 800px) and (max-width: 912px) {
+  .child {
+    height: 60%;
+    padding: 50px;
+  
+  }
 }
 ul,li {
   
@@ -30,13 +35,11 @@ ul,li {
     margin: 0;
 }
 .task{
-  
     display: flex;
-    justify-content: flex-end;
-    gap: 50px;
+    justify-content: space-between;
     margin-bottom: 15px;
     margin-top: 15px;
-    
+    flex: 1;
 }
 input{
   
@@ -144,4 +147,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.edit { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }

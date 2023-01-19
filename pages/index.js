@@ -3,20 +3,26 @@ import TaskList from '../components/TaskList.js'
 import AddTodo from '../components/AddTodo';
 
 export default function taskApp() {
-
+ const [quote,setQuote]=useState('')
   const [todos, setTodos] = useState([])
-
+  
   useEffect (()=>{
     const data = window.localStorage.getItem('todos');
-     if (data!= null) setTodos(JSON.parse(data))
+     if (data!==null) setTodos(JSON.parse(data))
     },[])
-    
+
   useEffect(() => {
     window.localStorage.setItem('todos', JSON.stringify(todos));
   }, [todos]);
 
-
-
+  useEffect(()=>{
+      async function quotes() {
+      const Response= await fetch('https://api.quotable.io/random?tags=motivational',{mode:'cors'})
+      const data= await Response.json()
+      data.length<=50?setQuote(data.content):quotes() 
+    }
+    quotes()
+  },[])
 
   function handleAdd(task) {
     setTodos(
@@ -50,10 +56,10 @@ function handleChange(nextID) {
   return (
     <div className='parent'>
       <div className='child'>
-      
+      <q className='quote'>{quote}</q>
       <AddTodo onAdd={handleAdd} />
       <title>TodoList</title>
-      <TaskList onChange={handleChange} onAdd={handleAdd}  ondelete={handledelete} todos={todos} />
+      <TaskList   onChange={handleChange} onAdd={handleAdd}  ondelete={handledelete} todos={todos} />
       </div>
       </div>
   )

@@ -42,8 +42,8 @@ function Task({ todo, ondelete, onChange}) {
                         task: e.target.value
                     })
                 }}></input>
-                <button style={{all:'unset',cursor:"pointer"}}  onClick={() => { setIsEdit(!isEdit); }}><FontAwesomeIcon icon={faFloppyDisk} /></button>
-                <button style={{all:'unset',cursor:"pointer"}}  onClick={() => ondelete(todo.id)}><FontAwesomeIcon icon={faXmarkCircle} /></button>
+                 <FontAwesomeIcon onClick={() =>  setIsEdit(!isEdit)} icon={faFloppyDisk} />
+               <FontAwesomeIcon  onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
                 
                
             </>
@@ -53,24 +53,24 @@ function Task({ todo, ondelete, onChange}) {
         return (
             <>
 
-                {todo.done ? <s>{todo.task}</s> : todo.task}
-                <FontAwesomeIcon onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
-                <FontAwesomeIcon onClick={() => { setIsEdit(!isEdit); }} icon={faPenToSquare} />
-
-
-                <div className="checkbox-wrapper-39">
-                    <label>
-                        <input className="checkbox-wrapper-39"  checked={todo.done}  type='checkbox'  onChange={(e) => {
-                    onChange(todo.done?{
-                        ...todo,
-                        done: false}:{...todo,done:e.target.checked})
-                }}
-                    ></input>
-                        <span className="checkbox"></span>
-                    </label>
-                </div>
-
-
+               
+                    {todo.done ? <s>{todo.task}</s> : todo.task}
+                     <div className="edit">
+                    <FontAwesomeIcon onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
+                    <FontAwesomeIcon onClick={() =>  setIsEdit(!isEdit) } icon={faPenToSquare} />
+                    <div className="checkbox-wrapper-39">
+                        <label>
+                            <input className="checkbox-wrapper-39"  checked={todo.done}  type='checkbox'  onChange={(e) => {
+                        onChange(todo.done?{
+                            ...todo,
+                            done: false}:{...todo,done:e.target.checked})
+                    }}
+                        ></input>
+                            <span className="checkbox"></span>
+                        </label>
+                    </div>
+                    </div>
+               
 
 
 
