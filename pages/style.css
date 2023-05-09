@@ -1,4 +1,10 @@
-
+::-webkit-scrollbar {
+  display: none;
+}
+html,
+body {
+  overflow-y: hidden;
+}
 .parent{
   
     display: flex;
@@ -14,11 +20,11 @@
     justify-content: center;
     align-items: center;
     height: 70%;
-    padding: 20px;
+    padding: 18px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    
     display: inline-block;
+    overflow: scroll;
       
 }
 @media screen and (min-width: 800px) and (max-width: 912px) {
@@ -42,10 +48,12 @@ ul,li {
     flex: 1;
 }
 input{
-  
-  
+   cursor: pointer;
     margin-right: 10px;
    border: 1px solid grey;
+}
+input:focus{
+  outline: none ;
 }
 body{
    background-color: #66BFBF;

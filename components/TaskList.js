@@ -42,8 +42,8 @@ function Task({ todo, ondelete, onChange}) {
                         task: e.target.value
                     })
                 }}></input>
-                 <FontAwesomeIcon onClick={() =>  setIsEdit(!isEdit)} icon={faFloppyDisk} />
-               <FontAwesomeIcon  onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
+                 <FontAwesomeIcon style={{cursor:'pointer'}} onClick={() =>  setIsEdit(!isEdit)} icon={faFloppyDisk} />
+               <FontAwesomeIcon style={{cursor:'pointer'}}  onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
                 
                
             </>
@@ -56,8 +56,8 @@ function Task({ todo, ondelete, onChange}) {
                
                     {todo.done ? <s>{todo.task}</s> : todo.task}
                      <div className="edit">
-                    <FontAwesomeIcon onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
-                    <FontAwesomeIcon onClick={() =>  setIsEdit(!isEdit) } icon={faPenToSquare} />
+                    <FontAwesomeIcon style={{cursor:'pointer'}} onClick={() => ondelete(todo.id)} icon={faXmarkCircle} />
+                    <FontAwesomeIcon style={{cursor:'pointer'}} onClick={() =>  setIsEdit(!isEdit) } icon={faPenToSquare} />
                     <div className="checkbox-wrapper-39">
                         <label>
                             <input className="checkbox-wrapper-39"  checked={todo.done}  type='checkbox'  onChange={(e) => {
