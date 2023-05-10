@@ -26,12 +26,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 70%;
-    padding: 18px;
+    padding: 30px;
     background-color: #FFFFFF;
     border-radius: 10px;
     display: inline-block;
     overflow: scroll;
       
+}
+@media screen and (min-width: 200px) and (max-width: 450px) {
+  .child{
+    padding:40px 20px 30px 20px;
+    height: 55%;
+    width: 100%;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 912px) {
   .child {
@@ -55,8 +62,8 @@ ul,li {
 }
 input{
    cursor: pointer;
-    margin-right: 10px;
    border: 1px solid grey;
+   flex: 1;
 }
 input:focus{
   outline: none ;
@@ -69,12 +76,18 @@ body{
 .adding {
     padding: 7px 20px;
     border-radius: 6px;
-    padding-right: 50px;
+    padding-right: 100px;
+    border: 1px solid;
     
    
 }
 
-
+@media screen and (min-width: 200px) and (max-width: 450px) {
+  .adding{
+    padding-right: 0px;
+  
+  }
+}
 
 
 .addbutton {
@@ -111,7 +124,9 @@ body{
     display: flex;
     margin-bottom: 30px;
     margin-top: 30px;
-    gap: 5px;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
     
 }
 
