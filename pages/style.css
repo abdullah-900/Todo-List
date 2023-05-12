@@ -10,6 +10,7 @@
 html,
 body {
   overflow-y: hidden;
+  
 }
 .parent{
   
@@ -69,7 +70,7 @@ input:focus{
   outline: none ;
 }
 body{
-   background-color: #66BFBF;
+  background-image: url('/symbols.svg');
 }
 
 
