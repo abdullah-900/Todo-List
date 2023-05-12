@@ -70,7 +70,7 @@ input:focus{
   outline: none ;
 }
 body{
-  background-image: url('/public/symbols.svg');
+  background-image: url('/Todo-List/public/symbols.svg');
 }
 
 
