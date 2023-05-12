@@ -20,7 +20,7 @@ export default function taskApp() {
       async function quotes() {
       const Response= await fetch('https://api.quotable.io/random?tags=motivational',{mode:'cors'})
       const data= await Response.json()
-      data.length<=65?setQuote(data.content):quotes() 
+      data.length<=50?setQuote(data.content):quotes() 
     }
     quotes()
   },[reload])
